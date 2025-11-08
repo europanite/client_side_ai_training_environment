@@ -1,5 +1,12 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { View, Text, TouchableOpacity, ScrollView, ActivityIndicator, Linking } from "react-native";
+import { 
+  View, 
+  Text, 
+  TouchableOpacity, 
+  ScrollView, 
+  ActivityIndicator, 
+  Linking,
+} from "react-native";
 import * as tf from "@tensorflow/tfjs";
 import * as mobilenet from "@tensorflow-models/mobilenet";
 import * as knn from "@tensorflow-models/knn-classifier";
@@ -263,11 +270,8 @@ export default function HomeScreen() {
     }
     return Array.from(m.entries());
   }, [trainPreviews]);
-
   return (
     <ScrollView style={{ flex: 1, backgroundColor: "#f8fafc" }} contentContainerStyle={{ padding: 16 }}>
-
-
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
         <Text
           style={{
@@ -281,7 +285,6 @@ export default function HomeScreen() {
           Client Side AI Training
         </Text>
       </TouchableOpacity>
-
       <View style={{ marginBottom: 16, padding: 12, borderRadius: 12, borderWidth: 1, backgroundColor: "#fff" }}>
         <SectionTitle>Status</SectionTitle>
         <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
