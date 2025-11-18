@@ -1,6 +1,6 @@
-title: "browser_based_ai_training"
+title: "client_side_ai_training"
 description: "A Browser-Based AI Training Playground"
-baseurl: "/browser_based_ai_training"
+baseurl: "/client_side_ai_training"
 url: "https://europanite.github.io"
 theme: minima
 markdown: kramdown
