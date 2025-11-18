@@ -23,7 +23,7 @@
       "edgeToEdgeEnabled": true
     },
     "experiments": {
-      "baseUrl": "/browser_based_ai_training"
+      "baseUrl": "/client_side_ai_training"
     },
     "web": {
       "favicon": "./assets/favicon.png",

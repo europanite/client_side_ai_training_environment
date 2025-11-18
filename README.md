@@ -1,11 +1,11 @@
-# [Browser Based AI Training](https://github.com/europanite/browser_based_ai_training "Browser Based AI Training")
+# [Client Side AI Training](https://github.com/europanite/client_side_ai_training "Client Side AI Training")
 
 A Browser-Based AI Training Playground. 
 
 !["web_ui"](./assets/images/web_ui.png)
 
 ##  Demo
- [Browser Based AI Training](https://europanite.github.io/browser_based_ai_training/)
+ [Client Side AI Training](https://europanite.github.io/client_side_ai_training/)
 
 ---
 
