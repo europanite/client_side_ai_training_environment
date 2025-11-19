@@ -4,12 +4,11 @@
 [![docker](https://github.com/europanite/client_side_ai_training/actions/workflows/docker.yml/badge.svg)](https://github.com/europanite/client_side_ai_training/actions/workflows/docker.yml)
 [![GitHub Pages](https://github.com/europanite/client_side_ai_training/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/client_side_ai_training/actions/workflows/deploy-pages.yml)
 
-A Browser-Based AI Training Playground. 
-
 !["web_ui"](./assets/images/web_ui.png)
 
-##  🚀 PlayGround
- [Client Side AI Training](https://europanite.github.io/client_side_ai_training/)
+ [ 🚀 PlayGround ](https://europanite.github.io/client_side_ai_training/)
+
+A Browser-Based AI Training Playground. 
 
 ---
 
@@ -61,8 +60,6 @@ docker compose build
 # Run the container
 docker compose up
 ```
-
----
 
 ### 3. Test:
 ```bash
