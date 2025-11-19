@@ -1,5 +1,5 @@
  module.exports = {
-   preset: 'jest-expo',
+   preset: 'react-native',
    testEnvironment: 'jsdom',
    setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
