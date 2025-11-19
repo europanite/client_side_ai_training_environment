@@ -8,15 +8,46 @@ A Browser-Based AI Training Playground.
 
 !["web_ui"](./assets/images/web_ui.png)
 
-##  Demo
+##  🚀 PlayGround
  [Client Side AI Training](https://europanite.github.io/client_side_ai_training/)
 
 ---
 
+##  ✨ Features
+
+---
+
+## 🧰 How It Works
+
+---
+
+## Data Structure
+
+<pre>
+DATA_DIRECTORY
+├── CLASS_NAME_1
+│   ├── image_01.png
+│   ├── image_02.png
+│   ├── image_03.png
+│   ├── ...
+├── CLASS_NAME_2
+│   ├── image_01.png
+│   ├── image_02.png
+│   ├── image_03.png
+│   ├── ...
+├── CLASS_NAME_3
+│   ├── image_01.png
+│   ├── image_02.png
+│   ├── image_03.png
+│   ├── ...
+ ...
+</pre>
+
+---
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ### 2. Build and start all services:
 
