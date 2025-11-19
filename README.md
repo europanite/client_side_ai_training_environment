@@ -8,7 +8,7 @@
 
  [ 🚀 PlayGround ](https://europanite.github.io/client_side_ai_training/)
 
-A Browser-Based AI Training Playground. 
+A Browser-Based Image AI Fine-Tuning Playground. 
 
 ---
 
@@ -17,6 +17,7 @@ A Browser-Based AI Training Playground.
 ---
 
 ## 🧰 How It Works
+* **Privacy**: All computation and data stay in the tab (no network I/O of user images).
 
 ---
 
