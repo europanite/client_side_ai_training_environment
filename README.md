@@ -79,11 +79,6 @@ Because the base model is frozen and only the classifier head is trained in the 
 
 ---
 
-## 🧰 How It Works
-* **Privacy**: All computation and data stay in the tab (no network I/O of user images).
-
----
-
 ## Data Structure
 
 <pre>
