@@ -8,10 +8,10 @@ import React, {
 import {
   View,
   Text,
-  TouchableOpacity,
   ScrollView,
   ActivityIndicator,
   Linking,
+  TouchableOpacity,
 } from "react-native";
 import * as tf from "@tensorflow/tfjs";
 import * as mobilenet from "@tensorflow-models/mobilenet";
@@ -511,7 +511,6 @@ export default function HomeScreen() {
           Client Side AI Training
         </Text>
       </TouchableOpacity>
-
       <Text
         style={{
           fontSize: 14,
@@ -519,11 +518,8 @@ export default function HomeScreen() {
           marginBottom: 16,
         }}
       >
-        Client Side AI Training is a small playground that lets you train an image
-        classifier head on top of MobileNet entirely in your browser using transfer
-        learning, with your own labeled image folders and no data upload.
+        A client side AI training playground. You can train an image classifier head of MobileNet using transfer learning, with your own labeled images.
       </Text>
-
       {/* Status */}
       <View
         style={{
