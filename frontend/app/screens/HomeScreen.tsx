@@ -518,7 +518,7 @@ export default function HomeScreen() {
           marginBottom: 16,
         }}
       >
-        A client side AI training playground. You can train an image classifier head of MobileNet using transfer learning, with your own labeled images.
+        A browser-based AI training playground. You can train an image classifier head of MobileNet using transfer learning, with your own labeled images.
       </Text>
       {/* Status */}
       <View
