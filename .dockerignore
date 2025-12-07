@@ -1,34 +1,71 @@
-# Git
+# ─────────────────────────────
+# Git / VCS
+# ─────────────────────────────
 .git
 .gitignore
+.gitattributes
 
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Node
-node_modules/
+# ─────────────────────────────
+# Node / package manager
+# ─────────────────────────────
+node_modules
+**/node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Local env/config
-.env
-*.env
-*.local
+# ─────────────────────────────
+# Expo / build artifacts
+# ─────────────────────────────
+.expo
+.expo-shared
+dist
+web-build
+web-build-*/
+build
+coverage
+reports
 
-# OS / IDE
+# Expo web export
+**/dist
+**/web-build
+
+# ─────────────────────────────
+# OS / editor
+# ─────────────────────────────
 .DS_Store
 Thumbs.db
 desktop.ini
-.vscode/
-.idea/
+.vscode
+.idea
 
-# Build artifacts
-dist/
-build/
-web-build/
-.expo/
-.expo-shared/
+# ─────────────────────────────
+# Env / secrets
+# ─────────────────────────────
+.env
+.env.*
+*.env
+*.env.local
+*.env.development
+*.env.production
+
+# ─────────────────────────────
+# Docker / Compose
+# ─────────────────────────────
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.*.yml
+
+# ─────────────────────────────
+# Logs / scratch files
+# ─────────────────────────────
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Jest / test outputs
+jest-stare
+nyc_output

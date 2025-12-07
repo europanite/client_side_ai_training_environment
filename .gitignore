@@ -1,58 +1,121 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-.eggs/
-*.log
-*.sqlite3
-db.sqlite3
-
-# Virtual env
-.venv/
-env/
-venv/
-ENV/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Node / React Native (Expo)
+# ─────────────────────────────
+# Node / package managers
+# ─────────────────────────────
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+package-lock.json.*
+yarn.lock.*
+pnpm-lock.yaml.*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ─────────────────────────────
+# Expo / React Native
+# ─────────────────────────────
 .expo/
 .expo-shared/
-web-build/
+.expo/*
+
+# Web build artifacts (Expo export, etc.)
 dist/
+web-build/
+web-build-*/
+web/
 build/
 
-# macOS / Linux / Windows
-.DS_Store
-Thumbs.db
-desktop.ini
+# Metro bundler cache / health check
+.metro-cache/
+.metro-health-check*
 
-# IDE
+# Bundler cache
+*.bundle
+*.map
+
+# Expo env helper file
+expo-env.d.ts
+
+# ─────────────────────────────
+# Native iOS / Android (bare or prebuild )
+# ─────────────────────────────
+# iOS
+ios/build/
+ios/Pods/
+ios/DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
+# Keystores / signing
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ─────────────────────────────
+# Tests / Coverage
+# ─────────────────────────────
+coverage/
+.coverage
+.nyc_output/
+jest-stare/
+reports/
+
+# ─────────────────────────────
+# Env / secrets
+# ─────────────────────────────
+.env
+.env.*.local
+*.env
+*.env.local
+*.env.production
+*.env.development
+
+# ─────────────────────────────
+# OS / editor / tooling
+# ─────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode / JetBrains
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# Docker
-*.pid
-*.sock
-*.tar
-
-# coverage reports (backend & frontend)
-coverage/
-backend/app/coverage/
-frontend/app/coverage/
-
-# Jest cache
-frontend/app/.jest-cache/
-
-make_md.py
-client_side_ai_training*
+# Misc
+*.log
+*.orig.*
