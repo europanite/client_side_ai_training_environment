@@ -518,7 +518,7 @@ export default function HomeScreen() {
           marginBottom: 16,
         }}
       >
-        A browser-based AI training playground. You can train an image classifier head of MobileNet using transfer learning, with your own labeled images.
+        A browser-based AI training playground. You can train a model using transfer learning on your browser, with your own labeled images.
       </Text>
       {/* Status */}
       <View
@@ -639,7 +639,7 @@ export default function HomeScreen() {
               color: "#166534",
             }}
           >
-            Train head model
+            Train
           </Text>
         </TouchableOpacity>
         <Text
