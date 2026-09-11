@@ -98,7 +98,13 @@ Comme le base model est gelé et que seul le classifier head est entraîné dans
 
 ---
 
-## Data Structure
+## Data
+
+### Sample Data
+- https://www.robots.ox.ac.uk/~vgg/data/flowers/
+-https://fishnet-2023.github.io/
+
+### Data Structure
 
 <pre>
 DATA_DIRECTORY
