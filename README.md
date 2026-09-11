@@ -65,6 +65,7 @@ in the browser, and run predictions — **without sending your images to any ser
 
 ---
 
+
 ## 🧰 How It Works
 
 Under the hood, the app follows this flow:
@@ -97,8 +98,13 @@ Under the hood, the app follows this flow:
 Because the base model is frozen and only the classifier head is trained in the browser, training is
 
 ---
+## Data
 
-## Data Structure
+### Sample Data
+- https://www.robots.ox.ac.uk/~vgg/data/flowers/
+-https://fishnet-2023.github.io/
+
+### Data Structure
 
 <pre>
 DATA_DIRECTORY

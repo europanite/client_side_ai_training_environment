@@ -96,7 +96,13 @@ Client Side AI Training Environment は、**TensorFlow.js MobileNet** 上で画�
 
 ---
 
-## データ構造
+## Data
+
+### Sample Data
+- https://www.robots.ox.ac.uk/~vgg/data/flowers/
+-https://fishnet-2023.github.io/
+
+### Data Structure
 
 <pre>
 DATA_DIRECTORY

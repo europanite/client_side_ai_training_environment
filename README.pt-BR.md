@@ -98,7 +98,13 @@ Como o base model fica congelado e apenas o classifier head é treinado no naveg
 
 ---
 
-## Data Structure
+## Data
+
+### Sample Data
+- https://www.robots.ox.ac.uk/~vgg/data/flowers/
+-https://fishnet-2023.github.io/
+
+### Data Structure
 
 <pre>
 DATA_DIRECTORY
