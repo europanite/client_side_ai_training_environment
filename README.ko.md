@@ -96,7 +96,13 @@ Base model은 frozen 상태이고 browser에서 classifier head만 학습되므�
 
 ---
 
-## Data Structure
+## Data
+
+### Sample Data
+- https://www.robots.ox.ac.uk/~vgg/data/flowers/
+-https://fishnet-2023.github.io/
+
+### Data Structure
 
 <pre>
 DATA_DIRECTORY
